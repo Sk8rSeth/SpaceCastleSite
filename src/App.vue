@@ -13,6 +13,7 @@ import SpaceCastle from './components/SpaceCastle.vue'
 <style>
 html {
     height: 100%;
+    width: 100%;
 }
 body {
     margin: 0;
@@ -34,6 +35,13 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    #app {
+        background-size: cover;
+        position: relative;
+    }
 }
 
 #app img.logo {

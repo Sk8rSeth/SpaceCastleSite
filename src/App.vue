@@ -29,6 +29,7 @@ body {
   background-image: url('./assets/BG.jpg');
   background-position: top left;
   background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 1rem;
   position: absolute;
   top: 0;
